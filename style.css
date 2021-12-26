@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient( 109.6deg,  #0e2036 11.2%, #672e51 92.5% );
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem{
+    height: 72px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #000;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito-titulo{
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff;
+}
+.conteudo-principal-escrito-subtitulo{
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+.conteudo-principal-escrito-botao{
+    background-color: rgba(51, 8, 103, 0.425);
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 40px;
+    color: #fff;
+}
+.conteudo-principal-escrito-botao:hover{
+    background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+    transform: scale(1.2);
+    transition: 1s;
+    
+}
+
+.conteudo-principal-imagem{
+    height: 430px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #000;
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo{
+    font-weight: 100;
+    font-size: 18px;
+    color: #fff;
+}
+.rodape{
+    border-top: 0.4px solid #000;
+    padding: 32px;
+}
+.rodape-imagem{
+    height: 100px;
+    display: block;
+    margin: 0 auto ;
+}
